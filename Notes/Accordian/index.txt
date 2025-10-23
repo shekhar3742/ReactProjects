@@ -1,0 +1,10 @@
+datass && datass.length > 0  => datass will check that it is null or not, where datass.length > 0 this is checking that it is greater than 0 or not.
+Here we are checking to time 
+---------------------------------
+
+onClick={ ()=> handlesingleselection(dataitem.id)}
+when we pass argument in react we mostly write this syntax reason of writting this is it will render only when we click button but if we write this 
+onClick={ handlesingleselection(dataitem.id)} it will render too many time which is not good 
+---------------------------------------------
+
+ 
